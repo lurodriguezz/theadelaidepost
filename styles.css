@@ -2,10 +2,12 @@ body {
     margin: 0;
 }
 
-@media only screen (min-device-width : 375px) {
-    body {
-      background-color: lightblue;
-    }
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (orientation : portrait) {
+      body {
+          background-color: blue;
+      }
   }
 
 @font-face {
