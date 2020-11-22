@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'chomsky';
+    src: url('assets/fonts/chomsky.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cheltenham';
+    src: url('assets/fonts/cheltenham.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'chomsky';
+    font-size: 30px;
+}
+
+.line {
+    height: 2.5px;
+    width: 100%;
+    background: #e3e3e3;
+}
+
+.title {
+    margin-top: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'cheltenham';
+    font-size: 40px;
+}
+
+img {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.date {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: left;
+    font-family: 'cheltenham';
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.article {
+    margin-top: 60px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.article ul {
+    margin-top: -15px;
+}
