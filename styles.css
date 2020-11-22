@@ -2,14 +2,6 @@ body {
     margin: 0;
 }
 
-  @media only screen 
-  and (min-device-width : 375px) 
-  and (orientation : portrait) {
-      body {
-          background-color: blue;
-      }
-  }
-
 @font-face {
     font-family: 'chomsky';
     src: url('assets/fonts/chomsky.ttf') format('truetype');
@@ -79,4 +71,23 @@ img {
 
 .article ul {
     margin-top: -15px;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (orientation : portrait) {
+    .article {
+        margin-top: 60px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    body {
+        background-color: aqua;
+    }
 }
