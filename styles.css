@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 380px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 @font-face {
     font-family: 'chomsky';
     src: url('assets/fonts/chomsky.ttf') format('truetype');
